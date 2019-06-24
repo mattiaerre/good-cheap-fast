@@ -3,3 +3,7 @@
 Good/Cheap/Fast  -  pick two
 
 An experiment w/ React and TDD
+
+## Let's do this
+
+![capture](./capture.gif 'capture')
