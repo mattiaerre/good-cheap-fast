@@ -1,0 +1,27 @@
+label {
+  display: flex;
+  flex-direction: row-reverse;
+  line-height: 30px;
+  padding: 8px;
+}
+
+form {
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  border: 1px solid lightgray;
+  margin: 16px 32px;
+  padding: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.label__switch {
+  margin: 0 8px 0 0;
+}
