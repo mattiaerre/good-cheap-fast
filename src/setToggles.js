@@ -1,4 +1,4 @@
-function setState(what, current) {
+function setToggles(what, current) {
   const final = Object.assign({}, current, {
     [what]: !current[what]
   });
@@ -16,4 +16,4 @@ function setState(what, current) {
   return final;
 }
 
-export default setState;
+export default setToggles;
