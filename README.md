@@ -14,5 +14,14 @@ An experiment w/ React and TDD
 
 ## Red-Green-Refactor
 
-[https://s3.amazonaws.com/mokacoding/2018-09-18-red-green-refactor.jpg
-](https://s3.amazonaws.com/mokacoding/2018-09-18-red-green-refactor.jpg)
+![red-green-refactor](https://s3.amazonaws.com/mokacoding/2018-09-18-red-green-refactor.jpg 'red-green-refactor')
+
+## Let's get started
+
+```bash
+nvm use
+
+npm i
+
+npm t
+```
