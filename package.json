@@ -1,24 +1,29 @@
 {
   "name": "good-cheap-fast",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^12.1.0",
+    "@testing-library/user-event": "^13.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-ios-switch": "^0.1.19",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "4.0.3",
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier:fix": "prettier './src/**/*.{css,js}' --write"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -33,19 +38,7 @@
     ]
   },
   "description": "Good/Cheap/Fast  -  pick two",
-  "main": "index.js",
   "devDependencies": {
     "prettier": "^2.4.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mattiaerre/good-cheap-fast.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mattiaerre/good-cheap-fast/issues"
-  },
-  "homepage": "https://github.com/mattiaerre/good-cheap-fast#readme"
+  }
 }
