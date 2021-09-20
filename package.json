@@ -40,5 +40,12 @@
   "description": "Good/Cheap/Fast  -  pick two",
   "devDependencies": {
     "prettier": "^2.4.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/reportWebVitals.js"
+    ]
   }
 }
