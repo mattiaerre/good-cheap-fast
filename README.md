@@ -25,3 +25,7 @@ npm i
 
 npm t
 ```
+
+## Resources
+
+- [Jest Expect Methods](https://jestjs.io/docs/expect)
