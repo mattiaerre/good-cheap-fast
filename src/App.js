@@ -12,7 +12,7 @@ function App() {
           <Switch
             checked={true}
             className="label__switch"
-            onChange={(checked) => {}}
+            onChange={() => {}}
           />
         </label>
         <label>
@@ -20,7 +20,7 @@ function App() {
           <Switch
             checked={false}
             className="label__switch"
-            onChange={(checked) => {}}
+            onChange={() => {}}
           />
         </label>
         <label>
@@ -28,7 +28,7 @@ function App() {
           <Switch
             checked={false}
             className="label__switch"
-            onChange={(checked) => {}}
+            onChange={() => {}}
           />
         </label>
       </form>
