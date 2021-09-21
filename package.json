@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^12.1.0",
     "@testing-library/user-event": "^13.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-ios-switch": "^0.1.19",
@@ -22,8 +23,13 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
-    ]
+      "react-app/jest",
+      "airbnb-base"
+    ],
+    "rules": {
+      "comma-dangle": "off",
+      "object-curly-newline": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -40,5 +46,12 @@
   "description": "Good/Cheap/Fast  -  pick two",
   "devDependencies": {
     "prettier": "^2.4.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/reportWebVitals.js"
+    ]
   }
 }

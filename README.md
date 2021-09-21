@@ -25,3 +25,11 @@ npm i
 
 npm t
 ```
+
+## Resources
+
+- [TDD Katas](https://medium.com/javarevisited/tdd-katas-5e897300a887)
+
+- [Jest Expect Methods](https://jestjs.io/docs/expect)
+
+- [React Testing Library Cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet)
