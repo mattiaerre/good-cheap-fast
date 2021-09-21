@@ -29,3 +29,5 @@ npm t
 ## Resources
 
 - [Jest Expect Methods](https://jestjs.io/docs/expect)
+
+- [React Testing Library Cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet)
