@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Switch from 'react-ios-switch';
 import './App.css';
+import toggle from './toggle';
 
 function App() {
+  const [values, setValues] = useState({
+    good: false,
+    cheap: false,
+    fast: false
+  });
+
   return (
     <section>
       <h2>Good/Cheap/Fast - pick two</h2>
@@ -10,25 +17,31 @@ function App() {
         <label>
           Good
           <Switch
-            checked={true}
+            checked={values.good}
             className="label__switch"
-            onChange={() => {}}
+            onChange={() => {
+              setValues(toggle('good', values));
+            }}
           />
         </label>
         <label>
           Cheap
           <Switch
-            checked={false}
+            checked={values.cheap}
             className="label__switch"
-            onChange={() => {}}
+            onChange={() => {
+              setValues(toggle('cheap', values));
+            }}
           />
         </label>
         <label>
           Fast
           <Switch
-            checked={false}
+            checked={values.fast}
             className="label__switch"
-            onChange={() => {}}
+            onChange={() => {
+              setValues(toggle('fast', values));
+            }}
           />
         </label>
       </form>
