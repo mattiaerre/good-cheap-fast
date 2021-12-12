@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <section>
-      <h2>Good/Cheap/Fast - pick two</h2>
+      <h1>Good/Cheap/Fast - pick two</h1>
       <form>
         <label>
           Good
@@ -32,7 +32,7 @@ function App() {
           />
         </label>
       </form>
-      <h3>What are your priorities?</h3>
+      <h2>What are your priorities?</h2>
       <ul>
         <li>Cheap + fast = lower quality work</li>
         <li>Fast + good = expensive</li>
